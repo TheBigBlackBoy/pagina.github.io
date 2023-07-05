@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.login{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+    padding: 145px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 16px;
+}
+
+#titulo{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#parrafo{
+    margin-top: -15px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.email{
+    padding-top: 55px;
+    padding-bottom: 25px;
+}
+
+#email{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#email:hover{
+    border-bottom: 3px soid rgb(72, 71, 71);
+}
+
+
+.pass{
+    
+    padding-bottom: 25px;
+}
+
+#pass{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#pass:hover{
+    border-bottom: 3px soid rgb(119, 104, 104);
+}
+
+#btn-login{
+    margin-top: 25px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(46, 45, 45);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn-login:hover{
+    color: rgb(150, 148, 148);
+    border: 2px solid white;
+    background-color: rgb(48, 46, 46);
+}
+
+.remeber{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#a{
+    padding-left: 45px;
+}
+
+#register{
+    font-size: 14px;
+    text-align: center;
+}

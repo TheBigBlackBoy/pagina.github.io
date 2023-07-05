@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.register{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+    padding: 100px;
+    padding-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 16px;
+}
+
+#titulo{
+    font-size: 35px;
+    cursor: default;
+}
+
+#parrafo{
+    margin-top: -15px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.name-lastName{
+    display: flex;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 50px;
+}
+
+#name{
+    font-size: 20px;
+    width: 70%;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+#last-name{
+    font-size: 20px;
+    width: 70%;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.email-pass{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+
+.email{
+    padding-bottom: 35px;
+}
+
+#email{
+    width: 92%;
+    justify-content: center;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#email:hover{
+    border-bottom: 3px soid rgb(72, 71, 71);
+}
+
+
+.pass{
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+#pass{
+    width: 92%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#pass:hover{
+    border-bottom: 3px soid rgb(119, 104, 104);
+}
+
+.edad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#edad{
+    font-size: 35px;
+    cursor:default;
+}
+
+.dia-mes-year{
+    font-size: 80px;
+    margin-top: -45px;
+    margin-bottom: 5px;
+}
+
+#day{
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 2px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#month{
+    font-size: 16px;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#year{
+    font-size: 16px;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#btn{
+    margin-top: 25px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(46, 45, 45);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn:hover{
+    color: rgb(150, 148, 148);
+    border: 2px solid white;
+    background-color: rgb(48, 46, 46);
+}
+
+#a{
+    padding-left: 45px;
+}
+
+#login{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 45px;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.titulo{
+    padding-left: 5px;
+    padding-top: 7px;
+}
+
+#busqueda{
+    width: 600px;
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 205px;
+    margin-left: 25px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    transition: all 0.3s;
+}
+
+#btn-busqueda{
+    font-size: 20px;
+    padding: 4.5px;
+    padding-top: 5px;
+    margin-top: -1px;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    margin-right: 15px;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+#btn-busqueda:hover{
+   background-color: rgb(119, 116, 116);
+   color: white;
+}
+
+.navegacion{
+    padding: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-right: 15px;
+}
+
+.main{
+    text-align: center;
+    padding-top: 95px;
+    padding-right: 45px;
+    display: grid;
+    grid: repeat(2, 515px) / auto-flow 510px;
+    place-items: center;
+}
+
+.venta{
+    background-color: rgb(68, 68, 69);
+    width: 350px;
+    height: 450px;
+    text-align: start;
+    display: grid;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(29, 29, 29);
+    transition: 0.4s;
+}
+
+.venta:hover{
+    opacity: 0.6;
+}
+
+.venta img{
+    padding-left: 5px;
+}
+
+.venta h3{
+    padding-bottom: 15px;
+    color: white;
+}
+
+.venta p{
+    color: white;
+}
+
+.venta span{
+    margin-bottom: px;
+    color: rgb(4, 187, 4);
+}
+
+.venta button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    font-weight: bolder;
+    box-shadow: inset 2px 2px 2px 2px rgb(59, 57, 57);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.venta button:hover{
+    background-color: black;
+    color: white;
+}
